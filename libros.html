@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">  
+    <style>
+        /* Estilo para el contenedor del catálogo */
+        .catalogo {
+            list-style: none; /* Quita los puntos de la lista */
+            display: flex; /* Utiliza flexbox para alinear las imágenes horizontalmente */
+            flex-wrap: wrap; /* Permite que las imágenes se envuelvan si no caben en una fila */
+            justify-content: center; /* Centra las imágenes horizontalmente */
+        }
+
+        /* Estilo para los elementos de la lista */
+        .catalogo li {
+            margin: 10px; /* Espacio entre las imágenes */
+        }
+
+        /* Estilo para las imágenes */
+        .catalogo img {
+            max-width: 200px; /* Ancho máximo de las imágenes */
+            height: auto; /* Mantener la relación de aspecto original */
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido, en esta página podrá encontrar diversos libros. </h1>
+    <h2>De click en el que desee lear.</h2>
+    <ul class="catalogo">
+       <a href="Libros/orgullo_y_prejuicio.pdf"> <li><img src="src/imagen1.jpg" alt="Imagen 1"></li></a>
+       <a href="Libros/Maravilloso Desastre.pdf"> <li><img src="src/imagen2.jpg" alt="Imagen 2"></li></a>
+       <a href="Libros/A_dos_metros_de_ti_Rachael_Lippincott.pdf"> <li><img src="src/imagen3.jpg" alt="Imagen 3"></li></a>
+       <a href="Libros/Al final mueren los dos.pdf"> <li><img src="src/imagen4.jpg" alt="Imagen 4"></li></a>
+       <a href="Libros/Bajo_la_misma_estrella_John_Green.pdf"> <li><img src="src/imagen5.jpg" alt="Imagen 5"></li></a>
+       <a href="Libros/Cien años de soledad.pdf"> <li><img src="src/imagen6.jpg" alt="Imagen 6"></li></a>
+       <a href="Libros/Doctor Sueno - Stephen King.pdf"> <li><img src="src/imagen7.jpg" alt="Imagen 7"></li></a>
+       <a href="Libros/Nosotros en la luna - Alice Kellen (1).pdf"> <li><img src="src/imagen8.jpg" alt="Imagen 8"></li></a>
+       <a href="Libros/Si_decido_quedarme_Gayle_Forman.pdf"> <li><img src="src/imagen9.jpg" alt="Imagen 9"></li></a>
+       <a href="Libros/The dare - Harley LaRoux.pdf"> <li><img src="src/imagen10.jpg" alt="Imagen 10"></li></a>
+
+        <!-- Agrega más elementos <li> según sea necesario -->
+    </ul>
+</body>
+</html>
