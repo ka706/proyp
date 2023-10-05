@@ -1,7 +1,7 @@
 <?php
 // Se utiliza para llamar al archivo que contine la conexion a la base de datos
 require 'conexion.php';
-$pagina_html = "http://localhost/login/login.html";
+$pagina_html = "http://localhost/login/index.html";
 // Validamos que el formulario y que el boton login haya sido presionado
 if(isset($_POST['login'])) {
 
